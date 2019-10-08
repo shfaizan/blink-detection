@@ -19,8 +19,13 @@ First create a file name detect_blinks and copy/paste file from https://github.c
   5. pip install argparse
   6. pip install imutils
 
+
+
+
 # Open Cmd in project directory  
 
+1. For input as a video
+python detect_blinks.py --shape-predictor shape_predictor_68_face_landmarks.dat --video blink_detection_demo.mp4
 
-# python detect_blinks.py --shape-predictor shape_predictor_68_face_landmarks.dat --video blink_detection_demo.mp4
-# python 
+2.For input as a webcam
+python detect_blinks.py --shape-predictor shape_predictor_68_face_landmarks.dat
